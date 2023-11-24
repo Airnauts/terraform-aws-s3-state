@@ -37,6 +37,6 @@ module "tfstate" {
 }
 
 resource "aws_s3_bucket" "log_bucket" {
-  bucket = "${module.tfstate.tfstate_s3_bucket}-log-bucket"
+    bucket = "${module.tfstate.tfstate_s3_bucket}-log-bucket"
 }
 ```
