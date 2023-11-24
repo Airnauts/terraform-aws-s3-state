@@ -14,7 +14,7 @@ In addition, 1 output has been created, which could be used for example for logg
 
 ```hcl
 output "tfstate_s3_bucket" {
-  value = aws_s3_bucket.terraform.id
+    value = aws_s3_bucket.terraform.id
 }
 ```
 
